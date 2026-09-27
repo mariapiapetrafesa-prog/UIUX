@@ -22,53 +22,53 @@ export default defineSiteConfig({
   // ── Basics ────────────────────────────────────────────────────────────────
   url: 'https://example.com',
   cloudinary: {
-    cloudName: 'demo', // ← your cloud name (Cloudinary Dashboard → "Cloud name")
+    cloudName: 'xdkaerux', // ← your cloud name (Cloudinary Dashboard → "Cloud name")
   },
 
-  name: 'Aurelio Vane',
+  name: 'Romualdo Pecorella',
   role: 'Photographer',
-  base: 'Lisbon & Milan',
-  email: 'studio@example.com',
+  base: 'Bari, Puglia',
+  email: 'almafilm@hotmail.com',
   social: [
-    { label: 'Instagram', href: 'https://instagram.com/' },
-    { label: 'Behance', href: 'https://behance.net/' },
+    { label: 'Instagram', href: 'https://www.instagram.com/alma.films?igsh=OGk5NjZmcXJkbGJx' },
+    { label: 'Vimeo', href: 'https://vimeo.com/user7263213' },
   ],
   description:
-    'Aurelio Vane is a documentary and editorial photographer working between the coast and the city. Selected series, commissions and prints.',
+    'Fotografo e filmmaker con base tra Bari e la Puglia. Racconto visivo ed editoriale per eventi privati, celebrazioni esclusive e progetti commissionati.',
 
   // ── Home page ─────────────────────────────────────────────────────────────
   home: {
-    headline: 'Stillness, *held* a moment longer.',
-    tagline: 'Quiet light, long shadows, and the minutes before something happens.',
+    headline: 'Frammenti di vita, *custoditi* nel tempo.',
+    tagline: 'Luci calde, dettagli spontanei e l’energia autentica di ogni festa.',
     hero: {
       id: 'samples/landscapes/beach-boat',
       alt: 'A small wooden boat resting on an empty beach at low tide',
       tone: '#5d6769',
       caption: 'Low Tide — Costa da Caparica, 2025',
     },
-    commissions: 'Available for editorial, portrait and interiors work — and for prints.',
+    commissions: 'Disponibile per eventi privati, diciottesimi, progetti video e commissioni su misura.',
   },
 
   // ── About page ────────────────────────────────────────────────────────────
   about: {
     portrait: {
-      id: 'samples/man-portrait',
-      alt: 'Portrait of the photographer in soft window light',
+      id: '475278206_9591774964177785_4746684636982610372_n',
+      alt: 'Ritratto di Romualdo Pecorella',
       tone: '#5a4f47',
     },
-    headline: 'I photograph the *in-between* — light arriving, people waiting, rooms just left.',
+    headline: 'Racconto visivo e *dinamismo*: la realtà attraverso uno sguardo cinematografico.',
     bio: [
-      '{name} is a documentary and editorial photographer based in {base}. Their work moves between long personal series and commissions for magazines, architects and small brands.',
-      'Most of it is made on film or slow digital, in available light, with as little direction as possible. Prints of every series are available in small editions on archival cotton paper.',
+      '{name} è un fotografo e filmmaker professionista attivo a {base}. Fondatore di Alma Films, da oltre venticinque anni si dedica alla produzione e post-produzione visiva, trasformando eventi privati, milestone ed esperienze dal vivo in racconti autentici e curati nel minimo dettaglio.',
+      'Il suo approccio fonde tecniche di ripresa fluide ed evolute con una sensibilità narrativa che privilegia la spontaneità dei momenti reali, l’energia della scena e la purezza della luce naturale, eliminando pose forzate o artificiose.',
     ],
-    availableFor: 'Editorial, portrait, interiors, prints',
+    availableFor: 'Eventi privati, 18esimi, produzioni video & backstage, progetti editoriali',
     // Placeholder names — list your real clients and publications.
-    clients: ['Client One', 'Journal Two', 'Studio Three', 'Magazine Four', 'Gallery Five', 'House Six'],
+    clients: ['Eventi Privati & Feste Esclusive', 'Produzioni Moda & Backstage', 'Video Clip Musicali', 'Format Televisivi & Spot', 'Puglia & Trasferte'],
   },
 
   contact: {
-    heading: 'For commissions, prints and collaborations.',
-    note: 'I reply to every message, usually within two working days.',
+    heading: 'Per eventi privati, date esclusive e collaborazioni.',
+    note: 'Rispondo a ogni messaggio, di solito entro 24-48 ore.',
   },
 
   // ── Series ────────────────────────────────────────────────────────────────
